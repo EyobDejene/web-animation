@@ -361,8 +361,9 @@ svg #stamp_7_
     animation-name: animateStamp_7_;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-
-
+    transform-box: fill-box;
+    transform-origin: center;
+    /*transform: translate(-280px,-230px) rotate(40deg);*/
 }
 
 @keyframes animateStamp_7_{
@@ -374,7 +375,7 @@ svg #stamp_7_
     to{
         transform-box: fill-box;
         transform-origin: center;
-        transform: translate(-280px,-230px) rotate(40deg);
+        transform: translate(-233%,-300%) rotate(40deg);
     }
 }
 
