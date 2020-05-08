@@ -341,6 +341,7 @@ svg #stamp_8_
     animation-direction: alternate;
     transform-box: fill-box;
     transform-origin: center;
+    transform: translate(0px, 0px) rotate(45deg);
 
 }
 
@@ -362,7 +363,9 @@ svg #stamp_7_
     animation-iteration-count: infinite;
     animation-direction: alternate;
     /*transform: translate(-280px,-230px) rotate(40deg);-47 70+*/
-
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: translate(0%,0%) rotate(40deg);
 }
 
 @keyframes animateStamp_7_{
@@ -386,17 +389,16 @@ svg #stamp_6_
     animation-name: animateStamp_6_;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: translate(0%,0%) rotate(33deg);
 }
 
 @keyframes animateStamp_6_{
     from{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(0%,0%) rotate(33deg);
     }
     to{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(-281%,-293%) rotate(33deg);
     }
 }
@@ -409,17 +411,16 @@ svg #stamp_5_
     animation-name: animateStamp_5_;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: translate(0%,0%) rotate(28deg);
 }
 
 @keyframes animateStamp_5_{
     from{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(0%,0%) rotate(28deg);
     }
     to{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(-296%,-251%) rotate(28deg);
     }
 }
@@ -430,17 +431,16 @@ svg #stamp_4_ {
     animation-name: animateStamp_4_;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: translate(0%,0%) rotate(19deg);
 }
 
 @keyframes animateStamp_4_{
     from{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(0%,0%) rotate(19deg);
     }
     to{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(-314%,-182%) rotate(19deg);
     }
 }
@@ -451,17 +451,16 @@ svg #stamp_3_ {
     animation-name: animateStamp_3_;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: translate(0%,0%) rotate(14deg);
 }
 
 @keyframes animateStamp_3_{
     from{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(0%,0%) rotate(14deg);
     }
     to{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(-323%,-133%) rotate(14deg);
     }
 }
@@ -473,17 +472,16 @@ svg #stamp_1_ {
     animation-name: animateStamp_1_;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: translate(0%,0%) rotate(5deg);
 }
 
 @keyframes animateStamp_1_{
     from{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(0%,0%) rotate(5deg);
     }
     to{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(-332%,-51%) rotate(5deg);
     }
 }
@@ -495,17 +493,16 @@ svg #stamp {
     animation-name: animateStamp;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: translate(0%,0%) rotate(-3deg);
 }
 
 @keyframes animateStamp{
     from{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(0%,0%) rotate(-3deg);
     }
     to{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(-333%,26%) rotate(-3deg);
     }
 }
@@ -516,17 +513,16 @@ svg #stamp_16_ {
     animation-name: animateStamp_16_;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: translate(0%,0%) rotate(-11deg);
 }
 
 @keyframes animateStamp_16_{
     from{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(0%,0%) rotate(-11deg);
     }
     to{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(-328%,108%) rotate(-11deg);
     }
 }
@@ -537,17 +533,16 @@ svg #stamp_15_ {
     animation-name: animateStamp_15_;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: translate(0%,0%) rotate(-20deg);
 }
 
 @keyframes animateStamp_15_{
     from{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(0%,0%) rotate(-20deg);
     }
     to{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(-317%,187%) rotate(-20deg);
     }
 }
@@ -559,17 +554,17 @@ svg #stamp_14_ {
     animation-name: animateStamp_14_;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: translate(0%,0%) rotate(-29deg);
+
 }
 
 @keyframes animateStamp_14_{
     from{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(0%,0%) rotate(-29deg);
     }
     to{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(-293%,265%) rotate(-29deg);
     }
 }
@@ -580,17 +575,16 @@ svg #stamp_13_ {
     animation-name: animateStamp_13_;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: translate(0%,0%) rotate(-35deg);
 }
 
 @keyframes animateStamp_13_{
     from{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(0%,0%) rotate(-35deg);
     }
     to{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(-274%,312%) rotate(-35deg);
     }
 }
@@ -601,17 +595,17 @@ svg #stamp_12_ {
     animation-name: animateStamp_12_;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: translate(0%,0%) rotate(-45deg);
 }
 
 @keyframes animateStamp_12_{
     from{
-        transform-box: fill-box;
-        transform-origin: center;
+
         transform: translate(0%,0%) rotate(-45deg);
     }
     to{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(-241%,391%) rotate(-45deg);
     }
 }
@@ -623,17 +617,16 @@ svg #stamp_11_ {
     animation-name: animateStamp_11_;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: translate(0%,0%) rotate(-51deg);
 }
 
 @keyframes animateStamp_11_{
     from{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(0%,0%) rotate(-51deg);
     }
     to{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(-213%,437%) rotate(-51deg);
     }
 }
@@ -644,17 +637,16 @@ svg #stamp_10_ {
     animation-name: animateStamp_10_;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: translate(0%,0%) rotate(-60deg);
 }
 
 @keyframes animateStamp_10_{
     from{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(0%,0%) rotate(-60deg);
     }
     to{
-        transform-box: fill-box;
-        transform-origin: center;
         transform: translate(-144%,443%) rotate(-60deg);
     }
 }
