@@ -1,0 +1,669 @@
+html, body{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #EDE2D6;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
+}
+
+
+svg{
+    width: 60%;
+    align-self: center;
+    justify-self: center;
+    /*transform: rotate(90deg);*/
+}
+.st0{fill:#090A0B;}
+.st1{opacity:0.9;fill:#0268AE;}
+.st2{fill:#696B66;}
+.st3{opacity:0.89;}
+.st4{fill:#008764;}
+.st5{fill:#080C0E;}
+.st6{opacity:0.9;fill:#008764;}
+.st7{fill:#DAB83F;}
+.st8{fill:#75A3BF;}
+.st9{fill:#4391C6;}
+.st10{fill:#E3C759;}
+.st11{fill:#090B0E;}
+.st12{fill:#008865;}
+.st13{fill:#605851;}
+.st14{fill:#050607;}
+.st15{fill:#EACE5F;}
+.st16{fill:#E7412E;}
+.st17{fill:#161214;}
+.st18{fill:#E23523;}
+.st19{fill:#E4372B;}
+
+/*
+animation headerpin
+ */
+svg #header{
+    animation-duration: 1.2s;
+    animation-name: animateHead;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes animateHead{
+    from{
+        transform: translateY(-200px);
+
+    }
+    to{
+        transform: translateY(80px);
+    }
+}
+
+
+/*
+green hammers
+ */
+svg #greenhammer,
+#greenhammer_1_,
+#greenhammer_2_,
+#greenhammer_3_,
+#greenhammer_4_,
+#greenhammer_5_,
+#greenhammer_6_,
+#greenhammer_7_,
+#greenhammer_8_,
+#greenhammer_10_,
+#greenhammer_11_,
+#greenhammer_12_,
+#greenhammer_13_,
+#greenhammer_14_,
+#greenhammer_15_,
+#greenhammer_16_
+{
+    mix-blend-mode: exclusion;
+
+
+}
+
+
+/*
+animation hammers
+ */
+
+svg #smallblock
+{
+    animation-duration: 1.2s;
+    animation-name: animateHammerLines;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateHammerLines{
+    from{
+        transform: translateX(0px);
+
+    }
+    to{
+        transform: translateX(-1120px);
+    }
+}
+
+svg #smallblock_1_
+{
+    animation-duration: 1.2s;
+    animation-delay: 0.1s;
+    animation-name: animateHammerLines_1_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateHammerLines_1_{
+    from{
+        transform: translateX(0px);
+
+    }
+    to{
+        transform: translateX(-1050px);
+    }
+}
+
+svg #smallblock_2_
+{
+    animation-duration: 1.2s;
+    animation-delay: 0.2s;
+    animation-name: animateHammerLines_2_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateHammerLines_2_{
+    from{
+        transform: translateX(0px);
+
+    }
+    to{
+        transform: translateX(-985px);
+    }
+}
+
+svg #smallblock_3_
+{
+    animation-duration: 1.2s;
+    animation-delay: 0.3s;
+    animation-name: animateHammerLines_3_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateHammerLines_3_{
+    from{
+        transform: translateX(0px);
+
+    }
+    to{
+        transform: translateX(-950px);
+    }
+}
+
+
+svg #smallblock_4_
+{
+    animation-duration: 1.2s;
+    animation-delay: 0.4s;
+    animation-name: animateHammerLines_4_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateHammerLines_4_{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-855px);
+    }
+}
+
+
+svg #smallblock_5_
+{
+    animation-duration: 1.2s;
+    animation-delay: 0.5s;
+    animation-name: animateHammerLines_5_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateHammerLines_5_{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-820px);
+    }
+}
+
+svg #smallblock_6_
+{
+    animation-duration: 1.2s;
+    animation-delay: 0.6s;
+    animation-name: animateHammerLines_6_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateHammerLines_6_{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-800px);
+    }
+}
+
+svg #smallblock_7_
+{
+    animation-duration: 1.2s;
+    animation-delay: 0.7s;
+    animation-name: animateHammerLines_7_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateHammerLines_7_{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-815px);
+    }
+}
+
+svg #smallblock_8_
+{
+    animation-duration: 1.2s;
+    animation-delay: 0.8s;
+    animation-name: animateHammerLines_8_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateHammerLines_8_{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-845px);
+    }
+}
+
+svg #smallblock_9_
+{
+    animation-duration: 1.2s;
+    animation-delay: 0.9s;
+    animation-name: animateHammerLines_9_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateHammerLines_9_{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-875px);
+    }
+}
+
+svg #smallblock_10_
+{
+    animation-duration: 1.2s;
+    animation-delay: 1s;
+    animation-name: animateHammerLines_10_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateHammerLines_10_{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-940px);
+    }
+}
+
+svg #smallblock_11_
+{
+    animation-duration: 1.2s;
+    animation-delay: 1.1s;
+    animation-name: animateHammerLines_11_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateHammerLines_11_{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-1040px);
+    }
+}
+
+svg #smallblock_12_
+{
+    animation-duration: 1.2s;
+    animation-delay: 1.2s;
+    animation-name: animateHammerLines_12_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateHammerLines_12_{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-1115px);
+    }
+}
+
+
+/* hammer stamps*/
+svg #stamp_8_
+{
+    animation-duration: 1.2s;
+    animation-name: animateStamp_8_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+
+}
+
+@keyframes animateStamp_8_{
+    from{
+        transform: translate(0px, 0px) rotate(45deg);
+    }
+    to{
+        transform: translate(-250px,-270px) rotate(45deg);
+    }
+}
+
+
+svg #stamp_7_
+{
+    animation-duration: 1.2s;
+    animation-delay: 0.1s;
+    animation-name: animateStamp_7_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+
+}
+
+@keyframes animateStamp_7_{
+    from{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-0px,-0px) rotate(40deg);
+    }
+    to{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-280px,-230px) rotate(40deg);
+    }
+}
+
+
+svg #stamp_6_
+{
+    animation-duration: 1.2s;
+    animation-delay: 0.2s;
+    animation-name: animateStamp_6_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes animateStamp_6_{
+    from{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-0px,-0px) rotate(33deg);
+    }
+    to{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-340px,-220px) rotate(33deg);
+    }
+}
+
+
+svg #stamp_5_
+{
+    animation-duration: 1.2s;
+    animation-delay: 0.3s;
+    animation-name: animateStamp_5_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateStamp_5_{
+    from{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-0px,-0px) rotate(28deg);
+    }
+    to{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-359px,-188px) rotate(28deg);
+    }
+}
+
+svg #stamp_4_ {
+    animation-duration: 1.2s;
+    animation-delay: 0.4s;
+    animation-name: animateStamp_4_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateStamp_4_{
+    from{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-0px,-0px) rotate(19deg);
+    }
+    to{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-380px,-135px) rotate(19deg);
+    }
+}
+
+svg #stamp_3_ {
+    animation-duration: 1.2s;
+    animation-delay: 0.5s;
+    animation-name: animateStamp_3_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateStamp_3_{
+    from{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-0px,-0px) rotate(14deg);
+    }
+    to{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-391px,-98px) rotate(14deg);
+    }
+}
+
+
+svg #stamp_1_ {
+    animation-duration: 1.2s;
+    animation-delay: 0.6s;
+    animation-name: animateStamp_1_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateStamp_1_{
+    from{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-0px,-0px) rotate(5deg);
+    }
+    to{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-395px,-38px) rotate(5deg);
+    }
+}
+
+
+svg #stamp {
+    animation-duration: 1.2s;
+    animation-delay: 0.7s;
+    animation-name: animateStamp;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateStamp{
+    from{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-0px,-0px) rotate(-3deg);
+    }
+    to{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-408px,19px) rotate(-3deg);
+    }
+}
+
+svg #stamp_16_ {
+    animation-duration: 1.2s;
+    animation-delay: 0.8s;
+    animation-name: animateStamp_16_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateStamp_16_{
+    from{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-0px,-0px) rotate(-11deg);
+    }
+    to{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-401px,80px) rotate(-11deg);
+    }
+}
+
+svg #stamp_15_ {
+    animation-duration: 1.2s;
+    animation-delay: 0.9s;
+    animation-name: animateStamp_15_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateStamp_15_{
+    from{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-0px,-0px) rotate(-20deg);
+    }
+    to{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-376px,138px) rotate(-20deg);
+    }
+}
+
+
+svg #stamp_14_ {
+    animation-duration: 1.2s;
+    animation-delay: 1.0s;
+    animation-name: animateStamp_14_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateStamp_14_{
+    from{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-0px,-0px) rotate(-29deg);
+    }
+    to{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-353px,195px) rotate(-29deg);
+    }
+}
+
+svg #stamp_13_ {
+    animation-duration: 1.2s;
+    animation-delay: 1.1s;
+    animation-name: animateStamp_13_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateStamp_13_{
+    from{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-0px,-0px) rotate(-35deg);
+    }
+    to{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-332px,230px) rotate(-35deg);
+    }
+}
+
+svg #stamp_12_ {
+    animation-duration: 1.2s;
+    animation-delay: 1.2s;
+    animation-name: animateStamp_12_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateStamp_12_{
+    from{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-0px,-0px) rotate(-45deg);
+    }
+    to{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-291px,288px) rotate(-45deg);
+    }
+}
+
+
+svg #stamp_11_ {
+    animation-duration: 1.2s;
+    animation-delay: 1.3s;
+    animation-name: animateStamp_11_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes animateStamp_11_{
+    from{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-0px,-0px) rotate(-51deg);
+    }
+    to{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-256px,319px) rotate(-51deg);
+    }
+}
+
+svg #stamp_10_ {
+    animation-duration: 1.2s;
+    animation-delay: 1.4s;
+    animation-name: animateStamp_10_;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animateStamp_10_{
+    from{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-0px,-0px) rotate(-60deg);
+    }
+    to{
+        transform-box: fill-box;
+        transform-origin: center;
+        transform: translate(-190px,326px) rotate(-60deg);
+    }
+}
+
+
+
+
+
+
+/* path */
