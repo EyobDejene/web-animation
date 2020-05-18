@@ -25,6 +25,11 @@ svg{
     justify-self: center;
     /*transform: rotate(90deg);*/
     overflow: visible;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .st0{fill:#090A0B;}
 .st1{opacity:0.9;fill:#0268AE;}
@@ -1193,8 +1198,26 @@ svg #header{
 /* path */
 
 
+/* navigation */
+nav{
+    position: absolute;
+}
 
+/* keyboard */
+#keys .st7:hover{
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+}
 
+/*svg:hover {*/
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    /*-webkit-transform: perspective(500px) rotateY(10deg);*/
+    /*transform: perspective(500px) rotateY(10deg);*/
+/*}*/
 
 /*
 Mobile
