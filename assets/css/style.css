@@ -5,17 +5,82 @@ html, body{
 }
 
 body{
+    cursor: none;
     background-color: #EDE2D6;
     width: 100%;
     display: grid;
     grid-template-columns: auto;
     background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
+
 }
 
 body > *{
+    cursor: none;
+}
 
-    /*filter: invert(100%);*/
 
+
+.invert{
+    filter: invert(100%) hue-rotate(90deg);
+    background-color: #090B0E;
+    background-image: none;
+}
+
+
+
+
+#cursor {
+    background-color: black;
+    border-radius: 25px;
+
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0.9;
+    filter: invert(1);
+    mix-blend-mode: difference;
+    pointer-events: none;
+}
+
+
+.slidecontainer {
+    width: 25%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    background: rgba(3, 3, 3, 0.91);
+    outline: none;
+    opacity: 0.9;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #ff0001;
+    cursor: none;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #ff1237;
+    cursor: pointer;
 }
 
 
@@ -25,6 +90,7 @@ svg{
     justify-self: center;
     /*transform: rotate(90deg);*/
     overflow: visible;
+    transform: perspective(0px) rotateY(0deg);
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -1200,7 +1266,53 @@ svg #header{
 
 /* navigation */
 nav{
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 2rem;
+    display: flex;
+    justify-content:space-between;
     position: absolute;
+    align-content:space-evenly;
+
+}
+
+.darkmode{
+    position: relative;
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+    padding: 15px;
+    font-size: 11px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(https://cdn1.iconfinder.com/data/icons/material-core/18/invert-colors-512.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all 200ms;
+    cursor: none;
+}
+
+.darkmode:hover{
+    -webkit-transform: scaleX(-1)
+}
+
+.blur{
+    position: relative;
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+    padding: 15px;
+    font-size: 11px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(https://cdn1.iconfinder.com/data/icons/material-core/18/invert-colors-512.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all 200ms;
+    cursor: none;
 }
 
 /* keyboard */
@@ -1212,12 +1324,6 @@ nav{
     -webkit-transform: scale(0.9);
 }
 
-/*svg:hover {*/
-    /*margin: 0 auto;*/
-    /*display: block;*/
-    /*-webkit-transform: perspective(500px) rotateY(10deg);*/
-    /*transform: perspective(500px) rotateY(10deg);*/
-/*}*/
 
 /*
 Mobile
