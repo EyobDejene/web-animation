@@ -1,7 +1,7 @@
 
 // change svg perspective when moving mouse cusor
 document.addEventListener("mousemove", checkCoordinates);
-let svg = document.querySelector('.svg');
+let svg = document.querySelector('svg');
 function checkCoordinates(e) {
   let Xmouse = event.pageX;
   let Ymouse = event.pageY;
