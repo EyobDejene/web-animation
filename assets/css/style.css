@@ -1345,8 +1345,6 @@ nav{
     animation-duration: 0.1s;
     animation-name: pressed;
     animation-direction: alternate;
-
-
 }
 
 @keyframes pressed {
