@@ -70,7 +70,13 @@ Omdat ik ook wou experimenteren met inverted colors heb ik een dark mode functie
  pagina omdraaien en de body kleur veranderd in zwart.
 Dit heb ik met behulp van 1 css property kunnen regelen en een paar regels javascript.
 
-
+```<style>
+.invert{
+    filter: invert(100%) hue-rotate(90deg);
+    background-color: #090B0E;
+    background-image: none;
+}
+```
 ```<script> let darkmodeButton = document.querySelector('.darkmode');
  let body = document.querySelector('body');
  darkmodeButton.addEventListener('click', darkmode);
@@ -89,7 +95,6 @@ berekening gemaakt die weer de style van het svg element manipuleerd in het gewe
 `transform: perspective(0px) rotateY(0deg);`
 
 ```<script>
-
 // change svg perspective when moving mouse cusor
 document.addEventListener("mousemove", checkCoordinates);
 let svg = document.querySelector('svg');
