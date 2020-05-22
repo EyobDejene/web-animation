@@ -1435,10 +1435,12 @@ Mobile
     .title{
         bottom: 0%;
         left: 0%;
+        font-size: 1rem;
     }
     .titlesub{
         margin-top: -2rem;
-        left: 27%;
+        left: 0%;
         text-align: center;
+        font-size: 2rem;
     }
 }
