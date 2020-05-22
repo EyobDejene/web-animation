@@ -2,7 +2,7 @@
 Minor visual interface design
 
 
-<img src="https://media.giphy.com/media/j2k68moZnGYAdijQ0V/giphy.gif" width="100%" height="auto">
+<img src="https://i.gyazo.com/09fd199d46a54d35a28e40c78925e702.gif" width="100%" height="auto">
 
 
 # Artwork
