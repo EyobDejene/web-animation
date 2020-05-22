@@ -1,7 +1,7 @@
 # web-animation
 Minor visual interface design
 
-[![animation](https://i.gyazo.com/09fd199d46a54d35a28e40c78925e702.gif)](https://i.gyazo.com/09fd199d46a54d35a28e40c78925e702.gif)
+[![animation](https://media.giphy.com/media/j2k68moZnGYAdijQ0V/giphy.gif)](https://media.giphy.com/media/j2k68moZnGYAdijQ0V/giphy.gif)
 
 
 # Artwork
