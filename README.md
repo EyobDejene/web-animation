@@ -1,7 +1,7 @@
 # web-animation
 Minor visual interface design
 
-
+<img src="assets/images/header.gif" width="100%" height="auto">
 
 # Artwork
 
