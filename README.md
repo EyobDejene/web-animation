@@ -51,6 +51,7 @@ transform-origin: center;``
 Vanuit hier heb ik doormiddel van keyframes animations gemaakt die iedere element in en uit laat schuiven.
 
 ## Responsive 
+<img src="/assets/images/responsive.gif" width="100%" height="auto">
 Om mijn visual ook toegangelijk te maken voor mobiele gebruikers heb ik besloten om het gehele element 90 graden te draaien zodat de typmachine rechtop in beeld komt en met minimale css properties visueel gelijk te houden.
 Door display flex te gebruiken heb ik mijn 2 functie knoppen bovenin zonder enige media queries hoeven aan te passen.
 Wel heb ik de twee titeltjes onderaan de pagina gecentreerd onder elkaar zodat dit niet overelkaar heen viel. 
@@ -87,6 +88,7 @@ Dit heb ik met behulp van 1 css property kunnen regelen en een paar regels javas
  ```
  
 ### Mouse (perspective) 
+<img src="/assets/images/perspective.gif" width="100%" height="auto">
 Door met je muis over het svg element te gaan volgt het element de muis.
 Daarbij heb ik gebruik gemaakt van het css propery: perspective en rotate.
 Eerst heb ik uitgerekend met behulp van javascript waarbij mijn muis zich bevindt en aan de hand daarvan een 
@@ -115,6 +117,7 @@ function checkCoordinates(e) {
 ```
 
 ### Blur (depth of field)
+<img src="/assets/images/blur.gif" width="100%" height="auto">
 Om een depth of field effect te creëren heb ik 2 elementen gebruikt die gebruik maken van een blur effect.
 Doormiddel van een range slider rechtsboven in kan de intensiteit worden bepaald.
 De svg element in het midden zal meer blur krijgen hoe verder er wordt aan de range slider wordt gedraaid en waarbij de 2 titels onderin juist steeds minder blur zullen krijgen. 
@@ -147,6 +150,7 @@ slider.addEventListener('input', function () {
 ```
 
 ### Keyboard (keyboard + sound)
+<img src="/assets/images/keyboard.gif" width="100%" height="auto">
 Voor interactiveit heb ik geprobeerd om het toetsenbord werkend te krijgen, 
 dit heb ik gedaan doormiddel van een class aan te maken die zodra er op het toetsenbord een keydown registeerd het svg element manipuleert. Hiervoor heb ik Javascript gebruikt en 1 css class.
 Daarbij heb ik sound effects gekoppeld aan iedere keydown registratie zodat het gevoel van een typmachine terug komt.
