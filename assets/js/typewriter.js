@@ -58,130 +58,186 @@ function darkmode(){
   body.classList.toggle('invert');
 }
 
+let counter = 0;
+function playSound() {
+  let audio = document.getElementById('audio');
+  audio.pause();
+  audio.currentTime = 0;
+  if (counter < 9){
+    audio.setAttribute('src',"assets/sounds/type.mp3");
+      audio.play();
+      counter++;
+  }else{
+    audio.setAttribute('src',"assets/sounds/bel.mp3");
+    counter = 0;
+    audio.play();
+  }
+}
 
 
 //keyboard
 
 document.addEventListener('keydown', (e) => {
+
     console.log(`Key "${e.key}" pressed  [event: keydown]`);
     if(e.key == "1"){
+      playSound();
       document.querySelector('#_x31_').classList.add('pressed');
     }
     if(e.key == "2"){
+      playSound();
       document.querySelector('#_x32_').classList.add('pressed');
     }
     if(e.key == "3"){
+      playSound()
       document.querySelector('#_x33_').classList.add('pressed');
     }
     if(e.key == "4"){
+      playSound()
       document.querySelector('#_x34_').classList.add('pressed');
     }
     if(e.key == "5"){
+      playSound()
       document.querySelector('#_x35_').classList.add('pressed');
     }
     if(e.key == "6"){
+      playSound()
       document.querySelector('#_x36_').classList.add('pressed');
     }
     if(e.key == "7"){
+      playSound()
       document.querySelector('#_x37_').classList.add('pressed');
     }
     if(e.key == "8"){
+      playSound()
       document.querySelector('#_x38_').classList.add('pressed');
     }
     if(e.key == "9"){
+      playSound()
       document.querySelector('#_x39_').classList.add('pressed');
     }
     if(e.key == "0"){
+      playSound()
       document.querySelector('#_x30_').classList.add('pressed');
     }
     if(e.key == "q"){
+      playSound()
       document.querySelector('#q_1_').classList.add('pressed');
     }
     if(e.key == "w"){
+      playSound()
       document.querySelector('#w_1_').classList.add('pressed');
     }
     if(e.key == "e"){
+      playSound()
       document.querySelector('#e_1_').classList.add('pressed');
     }
     if(e.key == "r"){
+      playSound()
       document.querySelector('#r_1_').classList.add('pressed');
     }
     if(e.key == "t"){
+      playSound()
       document.querySelector('#t_1_').classList.add('pressed');
     }
     if(e.key == "y"){
+      playSound()
       document.querySelector('#y_1_').classList.add('pressed');
     }
     if(e.key == "u"){
+      playSound()
       document.querySelector('#u_1_').classList.add('pressed');
     }
     if(e.key == "i"){
+      playSound()
       document.querySelector('#i_1_').classList.add('pressed');
     }
     if(e.key == "o"){
+      playSound()
       document.querySelector('#o_1_').classList.add('pressed');
     }
     if(e.key == "p"){
+      playSound()
       document.querySelector('#p_1_').classList.add('pressed');
     }
     if(e.key == "a"){
+      playSound()
       document.querySelector('#a').classList.add('pressed');
     }
     if(e.key == "s"){
+      playSound()
       document.querySelector('#s').classList.add('pressed');
     }
     if(e.key == "d"){
+      playSound()
       document.querySelector('#d').classList.add('pressed');
     }
     if(e.key == "f"){
+      playSound()
       document.querySelector('#f').classList.add('pressed');
     }
     if(e.key == "g"){
+      playSound()
       document.querySelector('#g').classList.add('pressed');
     }
     if(e.key == "h"){
+      playSound()
       document.querySelector('#h').classList.add('pressed');
     }
     if(e.key == "j"){
+      playSound()
       document.querySelector('#j').classList.add('pressed');
     }
     if(e.key == "k"){
+      playSound()
       document.querySelector('#k').classList.add('pressed');
     }
     if(e.key == "l"){
+      playSound()
       document.querySelector('#l').classList.add('pressed');
     }
     if(e.key == ":"){
+      playSound()
       document.querySelector('#dots_').classList.add('pressed');
     }
     if(e.key == "z"){
+      playSound()
       document.querySelector('#z').classList.add('pressed');
     }
     if(e.key == "x"){
+      playSound()
       document.querySelector('#x').classList.add('pressed');
     }
     if(e.key == "c"){
+      playSound()
       document.querySelector('#c').classList.add('pressed');
     }
     if(e.key == "v"){
+      playSound()
       document.querySelector('#v').classList.add('pressed');
     }
     if(e.key == "b"){
+      playSound()
       document.querySelector('#b').classList.add('pressed');
     }
     if(e.key == "n"){
+      playSound()
       document.querySelector('#n').classList.add('pressed');
     }
     if(e.key == "m"){
+      playSound()
       document.querySelector('#m').classList.add('pressed');
     }
     if(e.key == ","){
+      playSound()
       document.querySelector('#_x2C_').classList.add('pressed');
     }
     if(e.key == "."){
+      playSound()
       document.querySelector('#_x2E_').classList.add('pressed');
     }
     if(e.key == " "){
+      playSound()
       document.querySelector('#spacebar').classList.add('pressed');
     }
 });
