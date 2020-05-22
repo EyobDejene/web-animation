@@ -1,7 +1,8 @@
 # web-animation
 Minor visual interface design
 
-[![animation](https://media.giphy.com/media/j2k68moZnGYAdijQ0V/giphy.gif)](https://media.giphy.com/media/j2k68moZnGYAdijQ0V/giphy.gif)
+
+<img src="https://media.giphy.com/media/j2k68moZnGYAdijQ0V/giphy.gif" width="100%" height="auto">
 
 
 # Artwork
