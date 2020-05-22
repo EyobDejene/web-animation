@@ -31,7 +31,7 @@ Allereerst heb ik naar het ontwerp gekeken en bepaald welke elementen ik nodig h
 Deze elementen heb ik in illustrator nagemaakt en geëxporteerd als svg.
 Vanuit hier heb ik de svg code gebruikt en deze in mijn HTML geplaatst om daarna met behulp van CSS en Javascript leven in te blazen.
 
-<img src="/assets/images/set1.png" width="100%" height="auto">
+<img src="/assets/images/set1.jpg" width="100%" height="auto">
 
 
 Om de achtergrondtextuur ongeveer hetzelfde te krijgen zoals in mijn artwork heb ik een cream paper pattern gebruikt die ik op de body heb geplaatst met een beige achtergrondkleur.
