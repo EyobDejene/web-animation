@@ -1,7 +1,7 @@
 # web-animation
 Minor visual interface design
 
-![animation](https://media.giphy.com/media/j2k68moZnGYAdijQ0V/source.gif)
+[![animation](https://media.giphy.com/media/j2k68moZnGYAdijQ0V/giphy.gif)](https://media.giphy.com/media/j2k68moZnGYAdijQ0V/giphy.gif)
 
 
 # Artwork
