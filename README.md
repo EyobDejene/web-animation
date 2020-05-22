@@ -49,6 +49,18 @@ transform-origin: center;``
 Vanuit hier heb ik doormiddel van keyframes animations gemaakt die iedere element in en uit laat schuiven.
 
 
+<img src="/assets/images/set3.jpg" width="100%" height="auto">
+
+
+Om mijn visual ook toegangelijk te maken voor mobiele gebruikers heb ik besloten om het gehele element 90 graden te draaien zodat de typmachine rechtop in beeld komt en met minimale css properties visueel gelijk te houden.
+Door display flex te gebruiken heb ik mijn 2 functie knoppen bovenin zonder enige media queries hoeven aan te passen.
+Wel heb ik de twee titeltjes onderaan de pagina gecentreerd onder elkaar zodat dit niet overelkaar heen viel. 
+
+
+<img src="/assets/images/set2.jpg" width="100%" height="auto">
+
+
+
 
 
 
