@@ -1,15 +1,10 @@
 # web-animation
 Minor visual interface design
 
-[![Multiple Top-Level VIs Demo Link](https://i.gyazo.com/09fd199d46a54d35a28e40c78925e702.gif)][MultipleTopLevelVIsDemoLink]
-
-[MultipleTopLevelVIsDemoLink]: https://ni.github.io/webvi-examples/MultipleTopLevelVIs/Builds/Web%20Server/Configuration1/MultipleTopLevelVIs/
-
-
-<img src="https://i.gyazo.com/09fd199d46a54d35a28e40c78925e702.gif" width="100%" height="auto">
-
+<img src="/assets/images/header.gif?raw=true" width="100%" height="auto">
 
 # Artwork
+
 [![Image from Gyazo](https://i.gyazo.com/7207a11e9fe2929cf5f66789c72243e9.jpg)](https://gyazo.com/7207a11e9fe2929cf5f66789c72243e9)
 
 De Olivetti 82 Diaspron, is een schrijfmachine volgens een geheel nieuw ontwerp,
