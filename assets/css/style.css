@@ -1128,18 +1128,18 @@ animate parts
 }
 
 svg #header{
-    animation-duration: 0.6s;
-    animation-delay: 2.5s;
-    animation-name: popHeader ;
-    animation-iteration-count: 1;
+    /*animation-duration: 0.6s;*/
+    /*animation-delay: 2.5s;*/
+    /*animation-name: popHeader, animateHead  2s linear infinite;*/
+    animation: popHeader 0.6s 2.5s 1, animateHead 1.2s 5s infinite;
     animation-direction: alternate;
     animation-fill-mode: forwards;
-    transform: scale(0.0);
     -ms-transform: scale(0.0);
     -webkit-transform: scale(0.0);
     transform-box: fill-box;
     transform-origin: center;
     opacity: 0;
+    transform: scale(0.0);
 }
 
 @keyframes popHeader{
@@ -1165,6 +1165,7 @@ svg #header{
 
 
 /*svg .move{*/
+    /*animation-delay: 5s;*/
     /*animation-duration: 1.2s!important;*/
     /*animation-name: animateHead!important;*/
     /*animation-iteration-count: infinite!important;*/
@@ -1176,15 +1177,15 @@ svg #header{
 
 /*}*/
 
-/*@keyframes animateHead{*/
-    /*from{*/
-        /*transform: translateY(-10%);*/
+@keyframes animateHead{
+    from{
+        transform: translateY(0%);
 
-    /*}*/
-    /*to{*/
-        /*transform: translateY(5%);*/
-    /*}*/
-/*}*/
+    }
+    to{
+        transform: translateY(-30%);
+    }
+}
 
 
 
@@ -1285,6 +1286,8 @@ nav{
 .darkmode{
     position: relative;
     text-decoration: none;
+    width: 40px;
+    height: 40px;
     border: none;
     color: white;
     background-color: transparent;
@@ -1292,7 +1295,7 @@ nav{
     font-size: 11px;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-image: url(https://cdn1.iconfinder.com/data/icons/material-core/18/invert-colors-512.png);
+    background-image: url(https://image.flaticon.com/icons/svg/565/565536.svg);
     background-repeat: no-repeat;
     background-size: contain;
     transition: all 200ms;
@@ -1313,7 +1316,6 @@ nav{
     font-size: 11px;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-image: url(https://cdn1.iconfinder.com/data/icons/material-core/18/invert-colors-512.png);
     background-repeat: no-repeat;
     background-size: contain;
     transition: all 200ms;
@@ -1324,10 +1326,49 @@ nav{
 #keys .st7:hover{
     transform-box: fill-box;
     transform-origin: center;
-    transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    -webkit-transform: scale(0.9);
+    transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
 }
+
+#spacebar:hover{
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+}
+
+.pressed{
+    transform-box: fill-box;
+    transform-origin: center;
+    animation-duration: 0.1s;
+    animation-name: pressed;
+    animation-direction: alternate;
+
+
+}
+
+@keyframes pressed {
+    0%{
+        transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+    50%{
+        transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+    }
+    100%{
+        transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+
+
+}
+
 
 
 .wrap{
@@ -1339,7 +1380,7 @@ nav{
     transform: translateX(-50%);
     bottom: 0%;
     width: 100%;
-
+    filter:blur(10px);
 }
 
 .title{
@@ -1377,9 +1418,11 @@ Mobile
 @media only screen and (max-width: 600px) {
     svg {
         width: 100%;
-        transform: rotate(90deg);
+        transform: rotate(90deg) perspective(0)!important;
         cursor: default;
+
     }
+
     button,
     body,
     body > *,
