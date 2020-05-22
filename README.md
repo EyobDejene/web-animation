@@ -1,7 +1,8 @@
 # web-animation
 Minor visual interface design
 
-<a href="https://gyazo.com/09fd199d46a54d35a28e40c78925e702"><img src="https://i.gyazo.com/09fd199d46a54d35a28e40c78925e702.gif" alt="Image from Gyazo" width="1000"/></a>
+![](https://media.giphy.com/media/j2k68moZnGYAdijQ0V/source.gif)
+
 
 # Artwork
 [![Image from Gyazo](https://i.gyazo.com/7207a11e9fe2929cf5f66789c72243e9.jpg)](https://gyazo.com/7207a11e9fe2929cf5f66789c72243e9)
