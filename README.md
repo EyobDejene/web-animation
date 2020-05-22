@@ -2,6 +2,8 @@
 Minor visual interface design
 
 # Artwork
+[![Image from Gyazo](https://i.gyazo.com/7207a11e9fe2929cf5f66789c72243e9.jpg)](https://gyazo.com/7207a11e9fe2929cf5f66789c72243e9)
+
 De Olivetti 82 Diaspron, is een schrijfmachine volgens een geheel nieuw ontwerp,
 Het is het resultaat van een halve eeuw technische ervaringen en wetenschappelijk onderzoek.
 Vervaardigd van hoogwaardige materialen, verenigt zij fraaie vormgeving met mechanische perfectie en stere constructie.
