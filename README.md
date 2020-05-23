@@ -192,7 +192,7 @@ animation-direction: alternate;
 animation-fill-mode: forwards;
 transform-box: fill-box;
 transform-origin: center;
-transform: perspective()
+transform: perspective();
 mix-blend-mode: difference;
 ```
 
