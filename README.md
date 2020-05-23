@@ -71,21 +71,22 @@ Omdat ik ook wou experimenteren met inverted colors heb ik een dark mode functie
  pagina omdraaien en de body kleur veranderd in zwart.
 Dit heb ik met behulp van 1 css property kunnen regelen en een paar regels javascript.
 
-```<style>
+```css
 .invert{
     filter: invert(100%) hue-rotate(90deg);
     background-color: #090B0E;
     background-image: none;
 }
 ```
-```<script> let darkmodeButton = document.querySelector('.darkmode');
+```js 
+ let darkmodeButton = document.querySelector('.darkmode');
  let body = document.querySelector('body');
  darkmodeButton.addEventListener('click', darkmode);
  
  function darkmode(){
    body.classList.toggle('invert');
  }
- ```
+```
  
 ### Mouse (perspective) 
 <img src="/assets/images/perspective.gif" width="100%" height="auto">
@@ -96,7 +97,7 @@ berekening gemaakt die weer de style van het svg element manipuleerd in het gewe
 
 `transform: perspective(0px) rotateY(0deg);`
 
-```<script>
+```js
 // change svg perspective when moving mouse cusor
 document.addEventListener("mousemove", checkCoordinates);
 let svg = document.querySelector('svg');
@@ -124,7 +125,7 @@ De svg element in het midden zal meer blur krijgen hoe verder er wordt aan de ra
 Hiermee wordt een bijzonder effect gecreëerd. 
 Dit effect heb ik kunnen behalen door gebruik te maken van CSS en Javascript.
 
-```<style>
+```css
 .wrap{
     display: flex;
     justify-content:center;
@@ -138,7 +139,7 @@ Dit effect heb ik kunnen behalen door gebruik te maken van CSS en Javascript.
 }
 ``` 
 
-```<script>
+```js
 //change rangeslide blur
 let slider = document.querySelector('.slider');
 let svgContainer = document.querySelector('svg');
@@ -155,7 +156,7 @@ Voor interactiveit heb ik geprobeerd om het toetsenbord werkend te krijgen,
 dit heb ik gedaan doormiddel van een class aan te maken die zodra er op het toetsenbord een keydown registeerd het svg element manipuleert. Hiervoor heb ik Javascript gebruikt en 1 css class.
 Daarbij heb ik sound effects gekoppeld aan iedere keydown registratie zodat het gevoel van een typmachine terug komt.
 
-```<style>
+```css
 /* keyboard */
 #keys .st7:hover{
     transform-box: fill-box;
@@ -185,7 +186,7 @@ Daarbij heb ik sound effects gekoppeld aan iedere keydown registratie zodat het 
 * CSS transform
 * CSS blend mode
 
-```<style>
+```css
 animation-iteration-count: infinite;
 animation-direction: alternate;
 animation-fill-mode: forwards;
